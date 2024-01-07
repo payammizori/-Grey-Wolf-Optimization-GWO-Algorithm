@@ -1,2 +1,29 @@
-# -Grey-Wolf-Optimization-GWO-Algorithm
-The Grey Wolf Optimization (GWO) algorithm is a nature-inspired optimization technique that simulates the collaborative hunting behavior of grey wolves to efficiently solve complex optimization problems. It employs alpha, beta, and delta wolves to guide the search process, adjusting the positions of the entire pack for exploration and exploitation.
+# Grey Wolf Optimization (GWO) for Python
+
+This repository contains a Python implementation of the Grey Wolf Optimization algorithm for minimizing the Rastrigin and Sphere functions.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Function Definitions](#function-definitions)
+- [Example](#example)
+- [License](#license)
+
+## Introduction
+
+Grey Wolf Optimization (GWO) is a nature-inspired optimization algorithm that mimics the social behavior of grey wolves. This implementation focuses on minimizing the Rastrigin and Sphere functions.
+
+## Usage
+
+To use the GWO algorithm, you can import the provided module and call the `gwo` function with the desired fitness function, maximum iterations, number of wolves, and other parameters.
+
+## Function Definitions
+
+### Rastrigin Function
+
+The Rastrigin function is defined as:
+
+```python
+def fitness_rastrigin(position):
+    # ... (implementation)
